@@ -109,7 +109,9 @@ button:active {
     .fa-quote-left {
         font-size: 2.3rem;
     }
-    
+    .twitter-button {
+        margin-bottom: 15px;    
+    }
 }
 
 
