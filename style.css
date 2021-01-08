@@ -90,6 +90,7 @@ button:active {
     text-decoration: none;
     text-align: center;
     line-height: 2.8rem;
+    
 }
 
 .button-container a:hover {
@@ -133,7 +134,7 @@ button:active {
     .button-container {
         display: flex; 
     }
-    .twitter-button {
+    .button-container a {
         margin-right: 15px;
         margin-bottom: 15px;    
     }
@@ -142,20 +143,23 @@ button:active {
         color: #fff;
         
     }
-    
+    .button-container a:hover {
+        background-color: rgba(255, 74, 74, 0.7);
+        color: #fff;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .quote-text {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
     .quote-author {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
     .fa-quote-left {
         font-size: 2.3rem;
     }
-    .twitter-button {
+    .button-container a {
         margin-bottom: 15px;    
     }
 }
